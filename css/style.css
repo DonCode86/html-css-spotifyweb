@@ -31,6 +31,7 @@ a, small {
     text-decoration: none;
     color: #717171;
     font-weight: bold;
+    font-size: 14px;
 }
 
 .img-gray {
@@ -87,8 +88,24 @@ a, small {
 }
 
 .playlist {
-    margin-top: 15px;
-    padding: 10px;
+    margin-top: 30px;
+}
+
+.play-title {
+    margin-bottom: 20px;
+}
+
+.bigger {
+    width: 60px;
+    margin: 5px 5px 5px -5px;
+}
+
+.playlist .center-a {
+    margin-bottom: 30px ;
+}
+
+.playlist-name li {
+    padding: 10px 0;
 }
 /*------------------
     SECTIONS
