@@ -11,22 +11,21 @@
     COMMONS
 ------------------*/
 body {
-    display: flex;
-    max-width: 100vw;
-    flex-wrap: wrap;
+    font-family: 'Montserrat',
+    sans-serif;
+    background-color: #141922;
 }
 
 main {
     display: flex;
-    width: 100vw;
-    background-color: #141922;
+    height: calc(100% - 175px);
 }
 /*------------------
     HEADER-TOP
 ------------------*/
 .header-top {
     height: 90px;
-    width: calc(100% - 250px);
+    width: calc(100% - 200px);
     background-color: #000;
     opacity: .5;
     /* display: flex; */
@@ -38,25 +37,60 @@ main {
     HEADER-ASIDE
 ------------------*/
 .header-aside {
-    width: 250px;
-    height: calc(100vh - 80px);
+    min-width: 200px;
+    height: calc(100vh - 85px);
     background-color: #000;
     display: flex;
 }
 /*------------------
     SECTIONS
 ------------------*/
-
 .inner-main {
-    min-width: calc(100% - 250px);
-    background-color: #141922;
+    min-width: calc(100% - 200px);
+    height: calc(100vh - 85px);
+    padding: 90px 15px 0px;
+    overflow-y: auto;
 }
 
+.top-nav-menu {
+    min-height: 50px;
+    background-color: rgb(82, 6, 6);
+    width: 70%;
+    margin: auto;
+}
+
+
+.section-title, .title-have-not-subtitle {
+    min-height: 20px;
+    color: #fff;
+    margin: 25px 0;
+}
+
+.playlist-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.song-container {
+    width: calc(100% / 6 - 10px);
+    margin-right: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    padding: 10px;
+}
+
+.song-title {
+    padding: 5px;
+}
 /*------------------
     FOOTER
 ------------------*/
 footer {
-    width: 100%;
     height: 85px;
     background-color: #282828;
 }
