@@ -29,6 +29,7 @@ main {
 a {
     text-decoration: none;
     color: #717171;
+    font-weight: bold;
 }
 
 .img-gray {
@@ -72,6 +73,7 @@ a {
 
 .logo {
     width: 75%;
+    margin-bottom: 10px;
 }
 
 .img-nav {
