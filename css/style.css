@@ -48,6 +48,9 @@ a, small {
     margin: 25px 40px;
     background-color: black;
     cursor: pointer;
+    font-family: 'Montserrat',
+    sans-serif;
+    font-weight: bold;
 }
 /*------------------
     HEADER-TOP
