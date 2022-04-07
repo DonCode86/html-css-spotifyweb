@@ -191,4 +191,10 @@ img {
 footer {
     height: 85px;
     background-color: #282828;
+    display: flex;
+    justify-content: space-between;
+}
+
+.current-song-description, .footer-right-menu {
+    width: 25%;
 }
