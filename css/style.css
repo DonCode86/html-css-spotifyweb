@@ -31,11 +31,15 @@ a, small {
     text-decoration: none;
     color: #717171;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .img-gray {
     opacity: .5;
+}
+
+h4 {
+    font-size: 14px;
 }
 /*------------------
     BUTTONS
