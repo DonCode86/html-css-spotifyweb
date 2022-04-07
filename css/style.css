@@ -193,8 +193,48 @@ footer {
     background-color: #282828;
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .current-song-description, .footer-right-menu {
     width: 25%;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-right-menu {
+    gap: 25px;
+    padding-left: 50px;
+}
+
+.footer-img {
+    height: 100%;
+    display: inline-block;
+}
+
+.song-playing-name {
+    display: inline-block;
+    padding: 15px 10px;
+    line-height: 10px;
+    margin-right: 25px;
+}
+
+.fa-heart, .fa-folder {
+    line-height: 42px;
+    padding: 0 5px;
+}
+
+.volume-bar {
+    width: 275px;
+    height: 5px;
+    background-color: #717171;
+    border-radius: 5px;
+}
+
+.inner-volume-bar {
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 5px;
 }
