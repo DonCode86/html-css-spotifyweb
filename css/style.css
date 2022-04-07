@@ -79,6 +79,7 @@ a, small {
 .logo {
     width: 75%;
     margin-bottom: 20px;
+    flex-shrink: 0;
 }
 
 .img-nav {
@@ -92,7 +93,11 @@ a, small {
 }
 
 .playlist {
+    flex-grow: 1;
     margin-top: 30px;
+    overflow-y: auto;
+    height: 100vh;
+    height: calc(100vh - 295px);
 }
 
 .play-title {
@@ -163,6 +168,10 @@ a, small {
 
 img {
     max-width: 100%;
+}
+
+.img-container {
+    max-width: 300px;
 }
 
 .img-circle {
