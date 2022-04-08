@@ -80,6 +80,10 @@ i {
 /*------------------
     HEADER-ASIDE
 ------------------*/
+
+.logo-small {
+    display: none;
+}
 .header-aside {
     min-width: 200px;
     height: calc(100vh - 85px);
@@ -445,5 +449,13 @@ a:hover {
 
     .header-aside {
         min-width: 50px;
+    }
+
+    .logo-big {
+        display: none;
+    }
+
+    .logo-small {
+        display: block;
     }
 }
