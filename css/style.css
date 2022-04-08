@@ -197,7 +197,7 @@ footer {
 }
 
 .current-song-description, .footer-right-menu {
-    width: 25%;
+    width: 20%;
     padding: 10px 0;
     display: flex;
     align-items: center;
@@ -222,11 +222,11 @@ footer {
 
 .fa-heart, .fa-folder {
     line-height: 42px;
-    padding: 0 5px;
+    padding: 0 8px;
 }
 
 .volume-bar {
-    width: 275px;
+    width: 350px;
     height: 5px;
     background-color: #717171;
     border-radius: 5px;
@@ -237,4 +237,23 @@ footer {
     height: 100%;
     background-color: #fff;
     border-radius: 5px;
+}
+
+.player-btns {
+    text-align: center;
+}
+
+.player-btns i {
+    padding: 0 20px;
+}
+
+.fa-circle-play {
+    font-size: 26px;
+}
+
+.player-bar {
+    padding-top: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
