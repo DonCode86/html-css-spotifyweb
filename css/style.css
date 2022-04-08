@@ -143,11 +143,21 @@ h4 {
     padding: 10px;
 }
 
+.underlined::after {
+    width: 35%;
+    border-top: solid 1px #adff2f;
+    content: "";
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+}
+
 .top-nav-menu {
     width: 70%;
-    text-align: center;
     margin: auto;
     padding: 10PX;
+    display: flex;
+    justify-content: center;
 }
 
 .section-title, .title-have-not-subtitle {
