@@ -194,6 +194,7 @@ i {
     padding: 10PX;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .section-title, .title-have-not-subtitle {
@@ -384,4 +385,20 @@ a:hover {
 .song-playing-name:hover small {
     text-decoration: underline;
     cursor: pointer;
+}
+
+/*------------------
+    MEDIA QUERY
+------------------*/
+
+@media screen and (max-width: 1100px) {
+    .song-container {
+        width: calc(100% / 4 - 10px);
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .song-container {
+        width: calc(100% / 2 - 10px);
+    }
 }
