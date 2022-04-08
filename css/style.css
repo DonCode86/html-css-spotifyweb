@@ -86,6 +86,7 @@ i {
     display: flex;
     flex-direction: column;
     padding: 10px;
+    overflow: hidden;
 }
 
 .logo {
@@ -298,7 +299,7 @@ footer {
 }
 
 .volume-bar {
-    width: 350px;
+    width: 550px;
     height: 5px;
     background-color: #717171;
     border-radius: 5px;
@@ -345,6 +346,7 @@ a:hover {
 
 .center-a:hover {
     color: #fff;
+    opacity: 1;
 }
 
 .img-gray:hover {
