@@ -60,6 +60,10 @@ i {
     sans-serif;
     font-weight: bold;
 }
+
+.btn-upgrade:hover {
+    transform: scale(1.1);
+}
 /*------------------
     HEADER-TOP
 ------------------*/
@@ -298,6 +302,7 @@ footer {
     height: 5px;
     background-color: #717171;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .inner-volume-bar {
@@ -319,9 +324,30 @@ footer {
     font-size: 26px;
 }
 
+.fa-circle-play:hover {
+    transform: scale(1.1);
+}
+
 .player-bar {
     padding-top: 15px;
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.volume-bar:hover .inner-volume-bar {
+    background-color: #adff2f;
+}
+
+a:hover {
+    color: #fff;
+}
+
+.center-a:hover {
+    color: #fff;
+}
+
+.img-gray:hover {
+    opacity: 1;
+    cursor: pointer;
 }
