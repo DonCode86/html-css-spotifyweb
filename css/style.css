@@ -96,6 +96,15 @@ h4 {
     height: 35px;
 }
 
+.home {
+    padding-left: 7px;
+}
+
+.home {
+    border-left: 3px solid #adff2f;
+    margin-left: -10px;
+}
+
 .playlist {
     flex-grow: 1;
     margin-top: 30px;
@@ -131,7 +140,6 @@ h4 {
 }
 
 .top-nav-menu a {
-    font-size: 13px;
     padding: 10px;
 }
 
@@ -141,7 +149,6 @@ h4 {
     margin: auto;
     padding: 10PX;
 }
-
 
 .section-title, .title-have-not-subtitle {
     min-height: 20px;
