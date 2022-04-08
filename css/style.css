@@ -97,7 +97,7 @@ i {
 }
 
 .img-nav {
-    width: 15%;
+    width: 30px;
     margin-right: 5px;
 }
 .center-a {
@@ -299,7 +299,7 @@ footer {
 }
 
 .current-song-description, .footer-right-menu {
-    width: 30%;
+    width: 28%;
     padding: 10px 0;
     display: flex;
     align-items: center;
@@ -307,11 +307,23 @@ footer {
 
 .footer-right-menu {
     gap: 25px;
+    justify-content: right;
 }
 
 .footer-img {
     height: 100%;
-    display: inline-block;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.little-footer-items {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+}
+
+.song-playing-name small {
+    font-size: 10px;
 }
 
 .song-playing-name {
@@ -322,7 +334,6 @@ footer {
 }
 
 .fa-heart, .fa-folder {
-    line-height: 42px;
     padding: 0 8px;
 }
 
@@ -335,8 +346,12 @@ footer {
     cursor: pointer;
 }
 
+.smaller-volume-bar {
+    max-width: 200px;
+}
+
 .player {
-    width: 100%;
+    width: 40%;
 }
 
 .inner-volume-bar {
@@ -404,8 +419,31 @@ a:hover {
     }
 }
 
-/* @media screen and (max-width: 980px) {
+
+@media screen and (max-width: 760px) {
     .song-container {
         width: calc(100% / 2 - 10px);
     }
-} */
+
+    .player-btns i {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .playlist {
+        display: none;
+    }
+    
+    .bottom-aside-section {
+        display: none;
+    }
+
+    .center-a a {
+        display: none;
+    }
+
+    .header-aside {
+        min-width: 50px;
+    }
+}
